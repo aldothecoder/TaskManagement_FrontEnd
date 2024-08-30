@@ -13,4 +13,11 @@ export default defineConfig({
     },
   },
   base: "/TaskManagement_FrontEnd/",
+  build: {
+    rollupOptions: {
+      input: {
+        main: "index.html", // Ensure this points to your root index.html
+      },
+    },
+  },
 });
