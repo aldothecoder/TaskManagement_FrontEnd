@@ -12,12 +12,4 @@ export default defineConfig({
       "/tasks/": "http://localhost:8080",
     },
   },
-  base: "/TaskManagement_FrontEnd/",
-  build: {
-    rollupOptions: {
-      input: {
-        main: "index.html", // Ensure this points to your root index.html
-      },
-    },
-  },
 });
