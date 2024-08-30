@@ -12,4 +12,5 @@ export default defineConfig({
       "/tasks/": "http://localhost:8080",
     },
   },
+  base: "/TaskManagement_FrontEnd/",
 });
