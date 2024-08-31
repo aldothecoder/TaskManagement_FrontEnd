@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <Router>
+        <Router basename="/TaskManagement_FrontEnd">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/tasks" element={<Tasks />} />
